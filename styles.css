@@ -22,10 +22,8 @@
   height: 20px;
 }
 /* main img start here */
-
 .carousel-item img {
   height: 90.2vh;
-  /* position: relative; */
 }
 .main-img-internalContent {
   width: 100%;
@@ -59,16 +57,81 @@
 
 /* 3rd Page start here */
 
-#ads-container {
-  background-color: red;
-  width: 100vw;
-  height: 100vh;
-}
-.ads-heading{
-  padding-left: 18%;
-}
-#adsContainer img{
+#ad-container {
   width: 100%;
-  height: 100%;
+  display: flex;
+  align-items: center;
+  height: 65vh;
+}
+.ad-img img {
+  width: 99vw;
+  height: 65vh;
+}
+.ads-heading {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 18%;
+  justify-content: center;
 }
 
+.ad-list {
+  margin-top: 15vh;
+  font-size: larger;
+  list-style: none;
+  display: flex;
+  gap: 5vw;
+  padding: 0;
+}
+
+/* 4th page */
+.stories-container {
+  width: 100%;
+  height: 162vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9vh;
+}
+.stories-heading {
+  padding-left: 18%;
+}
+.img-container {
+  padding-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+}
+
+.stories-img-block img {
+  width: 30vw;
+  height: 34vh;
+  margin-bottom: 17px;
+}
+.blueDiv {
+  margin-top: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(44, 138, 174);
+  height: 18.5vh;
+}
+.blueDiv a {
+  margin-left: 10px;
+}
+
+.foter {
+  background-color: black;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;color: whitesmoke;
+  gap: 8px;
+}
+.foter label{font-size: 50px;}
