@@ -1,42 +1,71 @@
+/* Section 1st  */
+h5 {
+  letter-spacing: -1px;
+}
+
+h2 {
+  letter-spacing: -1px;
+}
+
 .logo {
   font-size: 50px;
-  margin-left: 20px;
+  font-family: 'Shantell Sans', 'cursive';
 }
+
 .nav {
   height: 8vh;
   align-items: center;
 }
+
 .navBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto 50px;
+
 }
+
 .nav-item .nav-link {
   color: black;
 }
+
+.nav-item img {
+  width: 1.2vw;
+
+}
+
 #title {
   height: 100vh;
 }
-.fa-magnifying-glass {
-  width: 20px;
-  height: 20px;
-}
-/* main img start here */
+
+/* Main Image  */
+
 .carousel-item img {
   height: 90.2vh;
 }
-.main-img-internalContent {
+
+.main-img-text {
   width: 100%;
   height: 90.2vh;
   position: absolute;
   padding-left: 18%;
-  padding-top: 15vh;
-  opacity: 0.7;
+  opacity: 0.75;
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-img-text h1 {
+  font-size: 70px;
+  line-height: 8vh;
+  letter-spacing: -2px;
+  margin-bottom: 2vh;
 }
 
 /* 2nd page */
+
 #experience {
   background-color: whitesmoke;
   height: 100vh;
@@ -47,63 +76,121 @@
   gap: 17vh;
 }
 
+.experience-heading h2 {
+  font-size: 40px;
+}
+
 .card-text {
   width: 14vw;
+  line-height: 30px;
 }
+
+.card-title {
+  letter-spacing: -1px;
+
+}
+
 .card-container {
   display: flex;
   gap: 5vw;
 }
 
-/* 3rd Page start here */
+/* 3rd Page */
 
 #ad-container {
   width: 100%;
   display: flex;
   align-items: center;
   height: 65vh;
+  color: whitesmoke;
 }
+
 .ad-img img {
   width: 99vw;
   height: 65vh;
 }
-.ads-heading {
-  position: absolute;
 
+#ad-container h2 {
+  font-size: 40px;
+}
+
+.ads-heading {
+  width: 100%;
+  height: 65vh;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  padding-left: 18%;
   justify-content: center;
+  background-color: black;
+  padding-left: 18%;
+  opacity: 0.8;
 }
+
 
 .ad-list {
   margin-top: 15vh;
   font-size: larger;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 5vw;
-  padding: 0;
+}
+
+.text-1 {
+  font-family: 'Great Vibes', 'cursive';
+  font-size: larger;
+
+}
+
+.text-2 {
+  font-family: 'Tilt Neon', 'cursive';
+
+}
+
+.text-3 {
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Shantell Sans', 'cursive';
+}
+
+.text-4 {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.text-5 {
+  font-family: 'Gloock', serif;
+}
+
+.text-6 {
+  font-family: 'Arima Madurai', 'cursive';
 }
 
 /* 4th page */
+
 .stories-container {
   width: 100%;
-  height: 162vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 9vh;
+  gap: 11vh;
 }
+
 .stories-heading {
+  margin-top: 15vh;
   padding-left: 18%;
 }
+
+.stories-heading h2 {
+  font-size: 40px;
+}
+
 .img-container {
-  padding-left: 5%;
+  padding-left: 3%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 10vw;
+  gap: 6vw;
 }
 
 .stories-img-block img {
@@ -111,27 +198,33 @@
   height: 34vh;
   margin-bottom: 17px;
 }
+
 .blueDiv {
-  margin-top: 6vh;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   background-color: rgb(44, 138, 174);
-  height: 18.5vh;
+  height: 17.5vh;
 }
+
 .blueDiv a {
-  margin-left: 10px;
+  margin-left: 1vw;
 }
 
 .foter {
   background-color: black;
   width: 100%;
-  height: 30vh;
+  height: 29vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;color: whitesmoke;
-  gap: 8px;
+  align-items: center;
+  color: whitesmoke;
+  gap: 2vh;
 }
-.foter label{font-size: 50px;}
+
+.foter label {
+  font-size: 50px;
+  font-family: 'Shantell Sans', 'cursive';
+}
